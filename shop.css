@@ -221,7 +221,9 @@ a {
 ul{
 	text-align:center
 }
+
 .foto{
+	color:white;
 	position:absolute;
 	width:100%;
 	height:100%;
@@ -229,51 +231,33 @@ ul{
 	opacity:0;
 	top:100%;
 	transition: all .5s;
+	padding-right: 20px	;
+	
 }
-.row-three li:hover .foto{
+.row-three .column:hover .foto{
 	text-align:center;
 	padding-top:200px;
 	padding-right:10px;
 	display:block;
 	opacity:1;
 	top:0;
+	height: 250px;
+	box-sizing: border-box
+}
+.column{
+	margin-bottom: 20px
+}
+.text{
+	text-transform: uppercase;
+	font-family: 'Montserrat-regular';
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+.head{
+	font-size:13px;
+	font-family: 'Roboto-regular';
 }
 
-/*<div class="row-three">
-						<div>
-							<div class="img-one">
-							<div class="absolute">
-							<img  src="https://cdn1.savepice.ru/uploads/2018/9/2/164e6e4db17e437aa97d90e125dd2856-full.png">
-							</div></div>
-						</div>
-							<div  class="img-two">
-							<img  src="https://cdn1.savepice.ru/uploads/2018/9/2/73030a70e633b2bade6bb64ec31f0bc1-full.png">
-							</div>
-							<div  class="img-three">
-							<img  src="https://cdn1.savepice.ru/uploads/2018/9/2/ae2f2a4195ae21f8c89bda1eee2cf71b-full.png">
-							</div>
-							<div  class="img-four">
-							<img  src="https://cdn1.savepice.ru/uploads/2018/9/2/51d0355e13c1c5b0a2c00f8cd40e9ab7-full.png">
-							</div>
-						</div>/*
-.img-one{
-	margin-left:auto;
-}
-.img-one, .img-two, .img-three, .img-four{
-	position:relative;
-}
-.img-one, .img-two, .img-three{
-	margin-right:33px
-}
-.img-one:hover, .img-two:hover, .img-three:hover, .img-four:hover{
-	
-}
-.absolute{
-	position:absolute
-}
-
-		.row-three ul, .row-three li{
-	margin:0;
-	padding:0;
-	list-style-type:none
+.social-icon {
+	color: red;
 }
